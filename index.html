@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Dota 2 Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+    <header>
+        <h1>Dota 2 — Гайд для новичков и фанатов</h1>
+        <nav>
+            <ul>
+                <li><a href="#mechanics">Механики</a></li>
+                <li><a href="#map">Карта</a></li>
+                <li><a href="#heroes">Герои</a></li>
+                <li><a href="#items">Предметы</a></li>
+                <li><a href="#facts">Факты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="mechanics">
+            <h2>Основные механики</h2>
+            <ul>
+                <li>Last hit — убийство крипов для золота</li>
+                <li>Denial — добивание своих крипов</li>
+                <li>Buyback — воскрешение за золото</li>
+                <li>Teleport — телепорт на другую линию</li>
+            </ul>
+        </section>
+        <section id="map">
+            <h2>Карта</h2>
+            <img src="images/map.jpg" alt="Карта Dota 2" class="map-img">
+            <p>Карта разделена на две части: Radiant и Dire. В каждой есть база, лес, линии, Рошан и руны.</p>
+        </section>
+        <section id="heroes">
+            <h2>Герои</h2>
+            <input type="text" id="heroFilter" placeholder="Поиск героя...">
+            <div class="card-grid" id="heroList">
+                <!-- Карточки героев добавляет JS -->
+            </div>
+        </section>
+        <section id="items">
+            <h2>Предметы</h2>
+            <input type="text" id="itemFilter" placeholder="Поиск предмета...">
+            <div class="card-grid" id="itemList">
+                <!-- Карточки предметов добавляет JS -->
+            </div>
+        </section>
+        <section id="facts">
+            <h2>Интересные факты</h2>
+            <ul>
+                <li>Первый турнир по Dota 2 имел призовой фонд $1,600,000.</li>
+                <li>Самый популярный герой — Pudge.</li>
+                <li>Самый дорогой предмет в игре — Divine Rapier.</li>
+                <li>Roshan появляется каждые 10 минут.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Dota 2 Wiki &copy; 2025</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
